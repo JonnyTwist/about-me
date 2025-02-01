@@ -1,4 +1,113 @@
-body {
+/* RESUME STYLING */
+/* finish switching names to not conflict with any later code (id's) */
+/* Noticed a size problem with Interests. fix later*/
+#resumeTotal {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#resumeHeader {
+    text-align: center;
+    background-color: rgb(75, 113, 250);
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#resumeMain {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    max-width: 300px;
+    justify-items: right;
+}
+
+.skills-header {
+    font-weight: bold;
+    font-size: 14pt;
+    padding-top: 10px;
+}
+
+#language-skills {
+    padding-top: 0px;
+}
+
+.left-column ul {
+    justify-items: right;
+}
+
+.right-column {
+    flex: 2;
+}
+
+h2 {
+    color: rgb(75, 113, 250);
+    border-top: 2px solid black;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: rgb(75, 113, 250);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.times {
+    float: right;
+    margin-right: 5%;
+}
+
+/** END OF RESUME STYLING BELOW WAS ORIGINAL. DELETE LATER */
+
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -98,4 +207,5 @@ a:hover {
 .times {
     float: right;
     margin-right: 5%;
-}
+} */
+
