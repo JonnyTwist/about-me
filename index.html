@@ -12,13 +12,26 @@
   </head>
   <body>
     
-    <!--Prob wont have a navbar-->
-    <nav id="navPlaceholder"></nav>
+    <!--Make navbar so you can just jump to different sections-->
+    <nav id="navPlaceholder">
+      <a href="#">About Me</a>
+      <a href="#">Resume</a>
+      <a href="#">Tech Stack</a>
+      <a href="#">Projects</a>
+    </nav>
 
-    <!--Plan to add drop downs for about section, resume / maybe break resume into different drop downs-->
+    <header>
+      <h1 id="bouncyHeader">Hello!</h1>
+      <h1 id="name">I am Jonny Twist</h1>
+    </header>
+
+    <!--Changing idea to just having stuff about me without a huge amount of dropdowns-->
     <div id="main">
       <button id="toggleButton" onclick="toggleText()">Show/Hide resume</button>
       <p id="text" class="hidden"></p>
+      <div id="techStackDiv">
+
+      </div>
     </div>
 
     <!--Put contact stuff in the footer-->

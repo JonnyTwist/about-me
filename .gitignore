@@ -1,0 +1,13 @@
+#May need to update this later but only removed to hide my cheese rn
+
+cheese.html
+# .DS_Store
+# *.logs
+# node_modules/
+# .vscode/
+# 404.html
+# .firebase/
+# .firebaserc
+# firebase.json
+# firestore.indexes.json
+# firestore.rules

@@ -10,8 +10,64 @@
     background-color: red;
 } */
 
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*todo make the size set for laptops*/
+
 #text {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+#bouncyHeader {
+    display: inline-block;
+    font-size: 75px;
+    margin-left: 10%;
+    animation: bounce 3s infinite ease-in-out;
+}
+
+#name {
+    display: sblock;
+    font-size: 45px;
+    margin-left: 10%;
+}
+
+/* #techStackDiv {
+    display: grid;
+    grid-columns: 
+}  */
+
+nav {
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    /* border: none; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    display: inline-block;
 }
